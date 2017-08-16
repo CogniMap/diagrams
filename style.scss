@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#root > div,
+html, body, #root, #container{
+  width: 100%;
+  height: 100%;
+  background: rgb(60,60,60);
+  display: flex;
+}
+
+@import "./node_modules/storm-react-diagrams/dist/style.css";
